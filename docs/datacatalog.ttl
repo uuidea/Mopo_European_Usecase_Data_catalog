@@ -115,7 +115,7 @@
     dcterms:modified "nan"^^xsd:date ;
     dcterms:title "potential capacities for installations with a specific power of 277 and a hub height of 150m",
         "wind-on-SP277-HH150.csv" ;
-    dcat:version "nan" .
+    dcat:version "" .
 
 <https://datacatalog.github.io/test_this#46be983d-3de3-4e10-b82a-828b18cd77e7> a dcat:Dataset ;
     dcterms:description "time series of 1 hour intervals from 1980-2020 of rooftop solar generation per country in the EU" ;
