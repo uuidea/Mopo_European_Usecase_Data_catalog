@@ -290,20 +290,21 @@ def create_dataset_pages(catalog_graph: Graph, output_dir: str):
 
         # Distributions
         mdFile.new_header(level=2, title='Distributions')
-        dist_list= ['identifier', 'format', 'version', 'last modified', 'access url']
-
+        dist_list= ['title','description', 'format', 'version', 'last modified', 'access url']
+        ncol=len(dist_list)
         for dist in graph.objects(s, DCAT.distribution):
             access_url= graph.value(dist, DCAT.accessURL)
             
             dist_list= dist_list+ [
-                graph.value(dist, DCTERMS.identifier),
+                graph.value(dist, DCTERMS.title),
+                graph.value(dist, DCTERMS.description),
                 graph.value(dist, DCTERMS.format),
                 graph.value(dist, DCAT.version),
                 graph.value(dist, DCTERMS.modified),
                 "["+ str(access_url)+"]("+str(access_url)+")",
             ]
 
-        mdFile.new_table(columns=5, rows= int(len(dist_list)/5), text= dist_list)
+        mdFile.new_table(columns=ncol, rows= int(len(dist_list)/ncol), text= dist_list)
 
 
         # data quality
