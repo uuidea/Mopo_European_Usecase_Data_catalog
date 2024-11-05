@@ -7,7 +7,7 @@ onshore
 onshore
 # uri
   
-https://datacatalog.github.io/test_this#c4d053d9-fac7-4882-afcb-dfbdeff614ae
+https://mopo.github.io/data-catalog#c4d053d9-fac7-4882-afcb-dfbdeff614ae
 # Definition
   
 installed on land

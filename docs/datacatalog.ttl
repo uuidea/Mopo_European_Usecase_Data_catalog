@@ -7,40 +7,43 @@
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://datacatalog.github.io/test_this#0a891426-5a92-4883-bf7e-773dd90a84b2> a skos:Concept ;
-    dcterms:identifier "0a891426-5a92-4883-bf7e-773dd90a84b2" ;
-    skos:definition "solar panels that are installed on rooftops" ;
-    skos:prefLabel "rooftop solar" .
-
-<https://datacatalog.github.io/test_this#3a13ede8-d139-4c62-bbdd-0f7537128ba8> a skos:Concept ;
+<https://mopo.github.io/data-catalog#3a13ede8-d139-4c62-bbdd-0f7537128ba8> a skos:Concept ;
     dcterms:identifier "3a13ede8-d139-4c62-bbdd-0f7537128ba8" ;
     skos:definition "existing capacity" ;
     skos:prefLabel "existing" .
 
-<https://datacatalog.github.io/test_this#a4f03499-1f37-45c9-81ae-a58660d666ae> a dcat:Catalog ;
+<https://mopo.github.io/data-catalog#a4f03499-1f37-45c9-81ae-a58660d666ae> a dcat:Catalog ;
     dcterms:description "This is a data catalog to test different functions of the SimpleMDDataCatalog project" ;
     dcterms:license [ a dcterms:LicenseDocument ;
             dcterms:title "cc-by-sa 4.0" ] ;
     dcterms:publisher [ a foaf:Agent ;
-            foaf:name "SimpleMDDataCatalog" ] ;
+            foaf:name "mopo project" ] ;
     dcterms:title "Mopo Data Catalog, European use case" ;
-    dcat:resource <https://datacatalog.github.io/test_this#4241ad70-d5a3-4278-8ca2-15334dccf741>,
-        <https://datacatalog.github.io/test_this#46be983d-3de3-4e10-b82a-828b18cd77e7>,
-        <https://datacatalog.github.io/test_this#5b8b1db7-186c-4fab-9584-a87478e41c97>,
-        <https://datacatalog.github.io/test_this#d2046673-feca-41e3-9f5b-1c3bc6866129>,
-        <https://datacatalog.github.io/test_this#e857840a-8b0a-491d-9e0b-b6789e28aea6>,
-        <https://datacatalog.github.io/test_this#f183c997-9f56-450b-88cc-86ac1eebc93a> .
+    dcat:resource <https://mopo.github.io/data-catalog#4241ad70-d5a3-4278-8ca2-15334dccf741>,
+        <https://mopo.github.io/data-catalog#46be983d-3de3-4e10-b82a-828b18cd77e7>,
+        <https://mopo.github.io/data-catalog#5b8b1db7-186c-4fab-9584-a87478e41c97>,
+        <https://mopo.github.io/data-catalog#d2046673-feca-41e3-9f5b-1c3bc6866129>,
+        <https://mopo.github.io/data-catalog#e857840a-8b0a-491d-9e0b-b6789e28aea6>,
+        <https://mopo.github.io/data-catalog#f183c997-9f56-450b-88cc-86ac1eebc93a> ;
+    dcat:theme <https://mopo.github.io/data-catalog#692e399d-78ff-4e06-88b4-9aa5086c48fa>,
+        <https://mopo.github.io/data-catalog#795464ae-ecea-4a09-a356-10de61adcc08>,
+        <https://mopo.github.io/data-catalog#dd9e1c57-2223-467c-a3d5-9c8701d3e688> .
 
-<https://datacatalog.github.io/test_this#e857840a-8b0a-491d-9e0b-b6789e28aea7> dcat:distribution <https://datacatalog.github.io/test_this#43a08ed6-2d7e-43fc-9256-fcd2919ac7e5> .
+<https://mopo.github.io/data-catalog#e857840a-8b0a-491d-9e0b-b6789e28aea7> dcat:distribution <https://mopo.github.io/data-catalog#43a08ed6-2d7e-43fc-9256-fcd2919ac7e5> .
 
-<https://datacatalog.github.io/test_this#fb1e4668-7f9d-4bbb-9c45-58e53f6dbf7f> a dqv:Metric ;
+<https://mopo.github.io/data-catalog#fb1e4668-7f9d-4bbb-9c45-58e53f6dbf7f> a dqv:Metric ;
     dcterms:identifier "fb1e4668-7f9d-4bbb-9c45-58e53f6dbf7f" ;
     skos:definition "we have data representing the capacity for all countries within the EU usecase. measured as a fraction between the collumns in the dataset and the expected columns" ;
     skos:prefLabel "all countries present" ;
     dqv:expectedDataType xsd:float ;
     dqv:inDimension <https://iso25000.com/index.php/en/iso-25000-standards/iso-25012/Completeness> .
 
-<https://datacatalog.github.io/test_this#0d6f644d-c719-4782-afd8-8a52d7dbfed0> a dcat:Distribution ;
+<https://mopo.github.io/data-catalog#0a891426-5a92-4883-bf7e-773dd90a84b2> a skos:Concept ;
+    dcterms:identifier "0a891426-5a92-4883-bf7e-773dd90a84b2" ;
+    skos:definition "solar panels that are installed on rooftops" ;
+    skos:prefLabel "rooftop solar" .
+
+<https://mopo.github.io/data-catalog#0d6f644d-c719-4782-afd8-8a52d7dbfed0> a dcat:Distribution ;
     dcterms:format "csv" ;
     dcterms:identifier "0d6f644d-c719-4782-afd8-8a52d7dbfed0" ;
     dcterms:modified "nan"^^xsd:date ;
@@ -48,7 +51,7 @@
         "wind-on-SP277-HH100.csv" ;
     dcat:version "nan" .
 
-<https://datacatalog.github.io/test_this#27c040f9-c844-4cbe-a40b-e38d631b2ed5> a dcat:Distribution ;
+<https://mopo.github.io/data-catalog#27c040f9-c844-4cbe-a40b-e38d631b2ed5> a dcat:Distribution ;
     dcterms:format "csv" ;
     dcterms:identifier "27c040f9-c844-4cbe-a40b-e38d631b2ed5" ;
     dcterms:modified "nan"^^xsd:date ;
@@ -56,7 +59,7 @@
         "wind-on-SP198-HH150.csv" ;
     dcat:version "nan" .
 
-<https://datacatalog.github.io/test_this#2a6777d5-cdae-4220-bac2-50a62937f7e9> a dcat:Distribution ;
+<https://mopo.github.io/data-catalog#2a6777d5-cdae-4220-bac2-50a62937f7e9> a dcat:Distribution ;
     dcterms:format "csv" ;
     dcterms:identifier "2a6777d5-cdae-4220-bac2-50a62937f7e9" ;
     dcterms:modified "nan"^^xsd:date ;
@@ -64,7 +67,7 @@
         "wind-on-SP335-HH100.csv" ;
     dcat:version "nan" .
 
-<https://datacatalog.github.io/test_this#302c01ee-ead7-4e79-a12e-0d9e4c042702> a dcat:Distribution ;
+<https://mopo.github.io/data-catalog#302c01ee-ead7-4e79-a12e-0d9e4c042702> a dcat:Distribution ;
     dcterms:format "csv" ;
     dcterms:identifier "302c01ee-ead7-4e79-a12e-0d9e4c042702" ;
     dcterms:modified "nan"^^xsd:date ;
@@ -72,7 +75,7 @@
         "wind-off-existing.csv" ;
     dcat:version "nan" .
 
-<https://datacatalog.github.io/test_this#3bef26bf-951d-43e1-ab28-b3b4e6161513> a dcat:Distribution ;
+<https://mopo.github.io/data-catalog#3bef26bf-951d-43e1-ab28-b3b4e6161513> a dcat:Distribution ;
     dcterms:format "csv" ;
     dcterms:identifier "3bef26bf-951d-43e1-ab28-b3b4e6161513" ;
     dcterms:modified "nan"^^xsd:date ;
@@ -80,7 +83,7 @@
         "wind-on-SP335-HH200.csv" ;
     dcat:version "nan" .
 
-<https://datacatalog.github.io/test_this#3f231780-097d-4d67-afab-89710d34bed6> a dcat:Distribution ;
+<https://mopo.github.io/data-catalog#3f231780-097d-4d67-afab-89710d34bed6> a dcat:Distribution ;
     dcterms:format "csv" ;
     dcterms:identifier "3f231780-097d-4d67-afab-89710d34bed6" ;
     dcterms:modified "nan"^^xsd:date ;
@@ -88,7 +91,7 @@
         "solar-PV-tracking.csv" ;
     dcat:version "nan" .
 
-<https://datacatalog.github.io/test_this#4241ad70-d5a3-4278-8ca2-15334dccf741> a dcat:Dataset ;
+<https://mopo.github.io/data-catalog#4241ad70-d5a3-4278-8ca2-15334dccf741> a dcat:Dataset ;
     dcterms:description "time series of 1 hour intervals from 1980-2020 of off shore wind generation per country in the EU" ;
     dcterms:identifier "4241ad70-d5a3-4278-8ca2-15334dccf741" ;
     dcterms:license [ a dcterms:LicenseDocument ;
@@ -103,21 +106,22 @@
     dcterms:title "Existing offshore wind generation capacity factor time series " ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "NaN"^^xsd:double ] ;
-    dcat:distribution <https://datacatalog.github.io/test_this#302c01ee-ead7-4e79-a12e-0d9e4c042702> ;
-    dcat:theme <https://datacatalog.github.io/test_this#252e7a88-1aca-4482-bda3-0ae0f9e39f5e>,
-        <https://datacatalog.github.io/test_this#795464ae-ecea-4a09-a356-10de61adcc08>,
-        <https://datacatalog.github.io/test_this#aad218bd-878a-42ca-8527-8f38e5acba36>,
-        <https://datacatalog.github.io/test_this#dd9e1c57-2223-467c-a3d5-9c8701d3e688> .
+    dcat:distribution <https://mopo.github.io/data-catalog#302c01ee-ead7-4e79-a12e-0d9e4c042702> ;
+    dcat:theme <https://mopo.github.io/data-catalog#252e7a88-1aca-4482-bda3-0ae0f9e39f5e>,
+        <https://mopo.github.io/data-catalog#4fc79e59-01c4-49fd-b6da-066fc86e5715>,
+        <https://mopo.github.io/data-catalog#795464ae-ecea-4a09-a356-10de61adcc08>,
+        <https://mopo.github.io/data-catalog#aad218bd-878a-42ca-8527-8f38e5acba36>,
+        <https://mopo.github.io/data-catalog#dd9e1c57-2223-467c-a3d5-9c8701d3e688> .
 
-<https://datacatalog.github.io/test_this#43a08ed6-2d7e-43fc-9256-fcd2919ac7e5> a dcat:Distribution ;
+<https://mopo.github.io/data-catalog#43a08ed6-2d7e-43fc-9256-fcd2919ac7e5> a dcat:Distribution ;
     dcterms:format "csv" ;
     dcterms:identifier "43a08ed6-2d7e-43fc-9256-fcd2919ac7e5" ;
     dcterms:modified "nan"^^xsd:date ;
     dcterms:title "potential capacities for installations with a specific power of 277 and a hub height of 150m",
         "wind-on-SP277-HH150.csv" ;
-    dcat:version "" .
+    dcat:version "nan" .
 
-<https://datacatalog.github.io/test_this#46be983d-3de3-4e10-b82a-828b18cd77e7> a dcat:Dataset ;
+<https://mopo.github.io/data-catalog#46be983d-3de3-4e10-b82a-828b18cd77e7> a dcat:Dataset ;
     dcterms:description "time series of 1 hour intervals from 1980-2020 of rooftop solar generation per country in the EU" ;
     dcterms:identifier "46be983d-3de3-4e10-b82a-828b18cd77e7" ;
     dcterms:license [ a dcterms:LicenseDocument ;
@@ -132,10 +136,10 @@
     dcterms:title "existing PV generation" ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "NaN"^^xsd:double ] ;
-    dcat:theme <https://datacatalog.github.io/test_this#692e399d-78ff-4e06-88b4-9aa5086c48fa>,
-        <https://datacatalog.github.io/test_this#a3acd9db-fad8-4811-b26b-60b0535780ac> .
+    dcat:theme <https://mopo.github.io/data-catalog#692e399d-78ff-4e06-88b4-9aa5086c48fa>,
+        <https://mopo.github.io/data-catalog#a3acd9db-fad8-4811-b26b-60b0535780ac> .
 
-<https://datacatalog.github.io/test_this#5b21e99b-ab78-4bff-a199-f554e628dc36> a dcat:Distribution ;
+<https://mopo.github.io/data-catalog#5b21e99b-ab78-4bff-a199-f554e628dc36> a dcat:Distribution ;
     dcterms:format "csv" ;
     dcterms:identifier "5b21e99b-ab78-4bff-a199-f554e628dc36" ;
     dcterms:modified "nan"^^xsd:date ;
@@ -143,7 +147,7 @@
         "wind-off-FO-SP316-HH155.csv" ;
     dcat:version "nan" .
 
-<https://datacatalog.github.io/test_this#5b8b1db7-186c-4fab-9584-a87478e41c97> a dcat:Dataset ;
+<https://mopo.github.io/data-catalog#5b8b1db7-186c-4fab-9584-a87478e41c97> a dcat:Dataset ;
     dcterms:description "time series of 1 hour intervals from 1980-2020 of offshore wind generation per country in the EU" ;
     dcterms:identifier "5b8b1db7-186c-4fab-9584-a87478e41c97" ;
     dcterms:license [ a dcterms:LicenseDocument ;
@@ -158,16 +162,17 @@
     dcterms:title "potential offshore wind generation capacity factor time series" ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "NaN"^^xsd:double ] ;
-    dcat:distribution <https://datacatalog.github.io/test_this#5b21e99b-ab78-4bff-a199-f554e628dc36>,
-        <https://datacatalog.github.io/test_this#a2be6734-71ac-464d-bf48-e126c1b9923f>,
-        <https://datacatalog.github.io/test_this#b9dd3601-06d9-4f19-b747-f177388e1bd1>,
-        <https://datacatalog.github.io/test_this#ceaaad5c-dec7-46b7-a2e7-512f05c2f79a> ;
-    dcat:theme <https://datacatalog.github.io/test_this#252e7a88-1aca-4482-bda3-0ae0f9e39f5e>,
-        <https://datacatalog.github.io/test_this#795464ae-ecea-4a09-a356-10de61adcc08>,
-        <https://datacatalog.github.io/test_this#aad218bd-878a-42ca-8527-8f38e5acba36>,
-        <https://datacatalog.github.io/test_this#dd9e1c57-2223-467c-a3d5-9c8701d3e688> .
+    dcat:distribution <https://mopo.github.io/data-catalog#5b21e99b-ab78-4bff-a199-f554e628dc36>,
+        <https://mopo.github.io/data-catalog#a2be6734-71ac-464d-bf48-e126c1b9923f>,
+        <https://mopo.github.io/data-catalog#b9dd3601-06d9-4f19-b747-f177388e1bd1>,
+        <https://mopo.github.io/data-catalog#ceaaad5c-dec7-46b7-a2e7-512f05c2f79a> ;
+    dcat:theme <https://mopo.github.io/data-catalog#252e7a88-1aca-4482-bda3-0ae0f9e39f5e>,
+        <https://mopo.github.io/data-catalog#4fc79e59-01c4-49fd-b6da-066fc86e5715>,
+        <https://mopo.github.io/data-catalog#795464ae-ecea-4a09-a356-10de61adcc08>,
+        <https://mopo.github.io/data-catalog#aad218bd-878a-42ca-8527-8f38e5acba36>,
+        <https://mopo.github.io/data-catalog#dd9e1c57-2223-467c-a3d5-9c8701d3e688> .
 
-<https://datacatalog.github.io/test_this#86b2ef61-7efc-4985-b81e-387305a9f85f> a dcat:Distribution ;
+<https://mopo.github.io/data-catalog#86b2ef61-7efc-4985-b81e-387305a9f85f> a dcat:Distribution ;
     dcterms:format "nan" ;
     dcterms:identifier "86b2ef61-7efc-4985-b81e-387305a9f85f" ;
     dcterms:modified "nan"^^xsd:date ;
@@ -175,7 +180,7 @@
         "solar-PV-rooftop.csv" ;
     dcat:version "nan" .
 
-<https://datacatalog.github.io/test_this#8b079e47-58fa-4a59-959d-4f3f6fd2837e> a dcat:Distribution ;
+<https://mopo.github.io/data-catalog#8b079e47-58fa-4a59-959d-4f3f6fd2837e> a dcat:Distribution ;
     dcterms:format "csv" ;
     dcterms:identifier "8b079e47-58fa-4a59-959d-4f3f6fd2837e" ;
     dcterms:modified "nan"^^xsd:date ;
@@ -183,7 +188,7 @@
         "wind-on-SP277-HH200.csv" ;
     dcat:version "nan" .
 
-<https://datacatalog.github.io/test_this#a202e800-939e-43f2-a9c7-a39c29268fb1> a dcat:Distribution ;
+<https://mopo.github.io/data-catalog#a202e800-939e-43f2-a9c7-a39c29268fb1> a dcat:Distribution ;
     dcterms:format "csv" ;
     dcterms:identifier "a202e800-939e-43f2-a9c7-a39c29268fb1" ;
     dcterms:modified "nan"^^xsd:date ;
@@ -191,7 +196,7 @@
         "wind-on-SP198-HH100.csv" ;
     dcat:version "nan" .
 
-<https://datacatalog.github.io/test_this#a2be6734-71ac-464d-bf48-e126c1b9923f> a dcat:Distribution ;
+<https://mopo.github.io/data-catalog#a2be6734-71ac-464d-bf48-e126c1b9923f> a dcat:Distribution ;
     dcterms:format "csv" ;
     dcterms:identifier "a2be6734-71ac-464d-bf48-e126c1b9923f" ;
     dcterms:modified "nan"^^xsd:date ;
@@ -199,7 +204,7 @@
         "wind-off-FO-SP370-HH155.csv" ;
     dcat:version "nan" .
 
-<https://datacatalog.github.io/test_this#aa958e50-43e9-4468-ad06-d79f8b0abd03> a dcat:Distribution ;
+<https://mopo.github.io/data-catalog#aa958e50-43e9-4468-ad06-d79f8b0abd03> a dcat:Distribution ;
     dcterms:format "csv" ;
     dcterms:identifier "aa958e50-43e9-4468-ad06-d79f8b0abd03" ;
     dcterms:modified "nan"^^xsd:date ;
@@ -207,7 +212,7 @@
         "wind-on-SP198-HH200.csv" ;
     dcat:version "nan" .
 
-<https://datacatalog.github.io/test_this#b6676761-db3e-4feb-9e44-2477be99cb33> a dcat:Distribution ;
+<https://mopo.github.io/data-catalog#b6676761-db3e-4feb-9e44-2477be99cb33> a dcat:Distribution ;
     dcterms:format "csv" ;
     dcterms:identifier "b6676761-db3e-4feb-9e44-2477be99cb33" ;
     dcterms:modified "nan"^^xsd:date ;
@@ -215,12 +220,12 @@
         "wind-on-existing.csv" ;
     dcat:version "nan" .
 
-<https://datacatalog.github.io/test_this#b6c79e59-01c4-49fd-b6da-066fc86e5715> a skos:Concept ;
+<https://mopo.github.io/data-catalog#b6c79e59-01c4-49fd-b6da-066fc86e5715> a skos:Concept ;
     dcterms:identifier "b6c79e59-01c4-49fd-b6da-066fc86e5715" ;
     skos:definition "potential capacity" ;
     skos:prefLabel "potential" .
 
-<https://datacatalog.github.io/test_this#b9dd3601-06d9-4f19-b747-f177388e1bd1> a dcat:Distribution ;
+<https://mopo.github.io/data-catalog#b9dd3601-06d9-4f19-b747-f177388e1bd1> a dcat:Distribution ;
     dcterms:format "csv" ;
     dcterms:identifier "b9dd3601-06d9-4f19-b747-f177388e1bd1" ;
     dcterms:modified "nan"^^xsd:date ;
@@ -228,7 +233,7 @@
         "wind-off-FB-SP370-HH155.csv" ;
     dcat:version "nan" .
 
-<https://datacatalog.github.io/test_this#ca4af6aa-74af-4b78-af4b-e27e54755a7d> a dcat:Distribution ;
+<https://mopo.github.io/data-catalog#ca4af6aa-74af-4b78-af4b-e27e54755a7d> a dcat:Distribution ;
     dcterms:format "csv" ;
     dcterms:identifier "ca4af6aa-74af-4b78-af4b-e27e54755a7d" ;
     dcterms:modified "nan"^^xsd:date ;
@@ -236,7 +241,7 @@
         "wind-on-SP335-HH150.csv" ;
     dcat:version "nan" .
 
-<https://datacatalog.github.io/test_this#ceaaad5c-dec7-46b7-a2e7-512f05c2f79a> a dcat:Distribution ;
+<https://mopo.github.io/data-catalog#ceaaad5c-dec7-46b7-a2e7-512f05c2f79a> a dcat:Distribution ;
     dcterms:format "csv" ;
     dcterms:identifier "ceaaad5c-dec7-46b7-a2e7-512f05c2f79a" ;
     dcterms:modified "nan"^^xsd:date ;
@@ -244,7 +249,7 @@
         "wind-off-FB-SP316-HH155.csv" ;
     dcat:version "nan" .
 
-<https://datacatalog.github.io/test_this#d2046673-feca-41e3-9f5b-1c3bc6866129> a dcat:Dataset ;
+<https://mopo.github.io/data-catalog#d2046673-feca-41e3-9f5b-1c3bc6866129> a dcat:Dataset ;
     dcterms:description "time series of 1 hour intervals from 1980-2020 of rooftop solar generation per country in the EU" ;
     dcterms:identifier "d2046673-feca-41e3-9f5b-1c3bc6866129" ;
     dcterms:license [ a dcterms:LicenseDocument ;
@@ -259,13 +264,14 @@
     dcterms:title "potential solar generatioon" ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "NaN"^^xsd:double ] ;
-    dcat:distribution <https://datacatalog.github.io/test_this#3f231780-097d-4d67-afab-89710d34bed6>,
-        <https://datacatalog.github.io/test_this#86b2ef61-7efc-4985-b81e-387305a9f85f> ;
-    dcat:theme <https://datacatalog.github.io/test_this#692e399d-78ff-4e06-88b4-9aa5086c48fa>,
-        <https://datacatalog.github.io/test_this#a3acd9db-fad8-4811-b26b-60b0535780ac>,
-        <https://datacatalog.github.io/test_this#b6c79e59-01c4-49fd-b6da-066fc86e5715> .
+    dcat:distribution <https://mopo.github.io/data-catalog#3f231780-097d-4d67-afab-89710d34bed6>,
+        <https://mopo.github.io/data-catalog#86b2ef61-7efc-4985-b81e-387305a9f85f> ;
+    dcat:theme <https://mopo.github.io/data-catalog#0a891426-5a92-4883-bf7e-773dd90a84b2>,
+        <https://mopo.github.io/data-catalog#692e399d-78ff-4e06-88b4-9aa5086c48fa>,
+        <https://mopo.github.io/data-catalog#a3acd9db-fad8-4811-b26b-60b0535780ac>,
+        <https://mopo.github.io/data-catalog#b6c79e59-01c4-49fd-b6da-066fc86e5715> .
 
-<https://datacatalog.github.io/test_this#e857840a-8b0a-491d-9e0b-b6789e28aea6> a dcat:Dataset ;
+<https://mopo.github.io/data-catalog#e857840a-8b0a-491d-9e0b-b6789e28aea6> a dcat:Dataset ;
     dcterms:description "time series of 1 hour intervals from 1980-2020 of on shore wind generation per country in the EU" ;
     dcterms:identifier "e857840a-8b0a-491d-9e0b-b6789e28aea6" ;
     dcterms:license [ a dcterms:LicenseDocument ;
@@ -280,20 +286,21 @@
     dcterms:title "potential onshore wind generation capacity factor time series" ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "NaN"^^xsd:double ] ;
-    dcat:distribution <https://datacatalog.github.io/test_this#0d6f644d-c719-4782-afd8-8a52d7dbfed0>,
-        <https://datacatalog.github.io/test_this#27c040f9-c844-4cbe-a40b-e38d631b2ed5>,
-        <https://datacatalog.github.io/test_this#2a6777d5-cdae-4220-bac2-50a62937f7e9>,
-        <https://datacatalog.github.io/test_this#3bef26bf-951d-43e1-ab28-b3b4e6161513>,
-        <https://datacatalog.github.io/test_this#8b079e47-58fa-4a59-959d-4f3f6fd2837e>,
-        <https://datacatalog.github.io/test_this#a202e800-939e-43f2-a9c7-a39c29268fb1>,
-        <https://datacatalog.github.io/test_this#aa958e50-43e9-4468-ad06-d79f8b0abd03>,
-        <https://datacatalog.github.io/test_this#ca4af6aa-74af-4b78-af4b-e27e54755a7d> ;
-    dcat:theme <https://datacatalog.github.io/test_this#795464ae-ecea-4a09-a356-10de61adcc08>,
-        <https://datacatalog.github.io/test_this#aad218bd-878a-42ca-8527-8f38e5acba36>,
-        <https://datacatalog.github.io/test_this#c4d053d9-fac7-4882-afcb-dfbdeff614ae>,
-        <https://datacatalog.github.io/test_this#dd9e1c57-2223-467c-a3d5-9c8701d3e688> .
+    dcat:distribution <https://mopo.github.io/data-catalog#0d6f644d-c719-4782-afd8-8a52d7dbfed0>,
+        <https://mopo.github.io/data-catalog#27c040f9-c844-4cbe-a40b-e38d631b2ed5>,
+        <https://mopo.github.io/data-catalog#2a6777d5-cdae-4220-bac2-50a62937f7e9>,
+        <https://mopo.github.io/data-catalog#3bef26bf-951d-43e1-ab28-b3b4e6161513>,
+        <https://mopo.github.io/data-catalog#8b079e47-58fa-4a59-959d-4f3f6fd2837e>,
+        <https://mopo.github.io/data-catalog#a202e800-939e-43f2-a9c7-a39c29268fb1>,
+        <https://mopo.github.io/data-catalog#aa958e50-43e9-4468-ad06-d79f8b0abd03>,
+        <https://mopo.github.io/data-catalog#ca4af6aa-74af-4b78-af4b-e27e54755a7d> ;
+    dcat:theme <https://mopo.github.io/data-catalog#4fc79e59-01c4-49fd-b6da-066fc86e5715>,
+        <https://mopo.github.io/data-catalog#795464ae-ecea-4a09-a356-10de61adcc08>,
+        <https://mopo.github.io/data-catalog#aad218bd-878a-42ca-8527-8f38e5acba36>,
+        <https://mopo.github.io/data-catalog#c4d053d9-fac7-4882-afcb-dfbdeff614ae>,
+        <https://mopo.github.io/data-catalog#dd9e1c57-2223-467c-a3d5-9c8701d3e688> .
 
-<https://datacatalog.github.io/test_this#f183c997-9f56-450b-88cc-86ac1eebc93a> a dcat:Dataset ;
+<https://mopo.github.io/data-catalog#f183c997-9f56-450b-88cc-86ac1eebc93a> a dcat:Dataset ;
     dcterms:description "time series of 1 hour intervals from 1980-2020 of on shore wind generation per country in the EU" ;
     dcterms:identifier "f183c997-9f56-450b-88cc-86ac1eebc93a" ;
     dcterms:license [ a dcterms:LicenseDocument ;
@@ -308,43 +315,49 @@
     dcterms:title "Existing onshore wind generation capacity  time series " ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "NaN"^^xsd:double ] ;
-    dcat:distribution <https://datacatalog.github.io/test_this#b6676761-db3e-4feb-9e44-2477be99cb33> ;
-    dcat:theme <https://datacatalog.github.io/test_this#795464ae-ecea-4a09-a356-10de61adcc08>,
-        <https://datacatalog.github.io/test_this#aad218bd-878a-42ca-8527-8f38e5acba36>,
-        <https://datacatalog.github.io/test_this#c4d053d9-fac7-4882-afcb-dfbdeff614ae>,
-        <https://datacatalog.github.io/test_this#dd9e1c57-2223-467c-a3d5-9c8701d3e688> .
+    dcat:distribution <https://mopo.github.io/data-catalog#b6676761-db3e-4feb-9e44-2477be99cb33> ;
+    dcat:theme <https://mopo.github.io/data-catalog#4fc79e59-01c4-49fd-b6da-066fc86e5715>,
+        <https://mopo.github.io/data-catalog#795464ae-ecea-4a09-a356-10de61adcc08>,
+        <https://mopo.github.io/data-catalog#aad218bd-878a-42ca-8527-8f38e5acba36>,
+        <https://mopo.github.io/data-catalog#c4d053d9-fac7-4882-afcb-dfbdeff614ae>,
+        <https://mopo.github.io/data-catalog#dd9e1c57-2223-467c-a3d5-9c8701d3e688> .
 
-<https://datacatalog.github.io/test_this#252e7a88-1aca-4482-bda3-0ae0f9e39f5e> a skos:Concept ;
+<https://mopo.github.io/data-catalog#252e7a88-1aca-4482-bda3-0ae0f9e39f5e> a skos:Concept ;
     dcterms:identifier "252e7a88-1aca-4482-bda3-0ae0f9e39f5e" ;
     skos:definition "installed on the sea or ocean." ;
     skos:prefLabel "offshore" .
 
-<https://datacatalog.github.io/test_this#692e399d-78ff-4e06-88b4-9aa5086c48fa> a skos:Concept ;
-    dcterms:identifier "692e399d-78ff-4e06-88b4-9aa5086c48fa" ;
-    skos:definition "renewable energy generation (installations that use solar energy to generate electricity." ;
-    skos:prefLabel "solar" .
-
-<https://datacatalog.github.io/test_this#a3acd9db-fad8-4811-b26b-60b0535780ac> a skos:Concept ;
+<https://mopo.github.io/data-catalog#a3acd9db-fad8-4811-b26b-60b0535780ac> a skos:Concept ;
     dcterms:identifier "a3acd9db-fad8-4811-b26b-60b0535780ac" ;
     skos:definition "technology for generating electricity out of solar energy" ;
     skos:prefLabel "PV" .
 
-<https://datacatalog.github.io/test_this#c4d053d9-fac7-4882-afcb-dfbdeff614ae> a skos:Concept ;
+<https://mopo.github.io/data-catalog#c4d053d9-fac7-4882-afcb-dfbdeff614ae> a skos:Concept ;
     dcterms:identifier "c4d053d9-fac7-4882-afcb-dfbdeff614ae" ;
     skos:definition "installed on land" ;
     skos:prefLabel "onshore" .
 
-<https://datacatalog.github.io/test_this#795464ae-ecea-4a09-a356-10de61adcc08> a skos:Concept ;
-    dcterms:identifier "795464ae-ecea-4a09-a356-10de61adcc08" ;
-    skos:definition "wind as an energy source" ;
-    skos:prefLabel "wind" .
+<https://mopo.github.io/data-catalog#692e399d-78ff-4e06-88b4-9aa5086c48fa> a skos:Concept ;
+    dcterms:identifier "692e399d-78ff-4e06-88b4-9aa5086c48fa" ;
+    skos:definition "renewable energy generation (installations that use solar energy to generate electricity." ;
+    skos:prefLabel "solar" .
 
-<https://datacatalog.github.io/test_this#aad218bd-878a-42ca-8527-8f38e5acba36> a skos:Concept ;
+<https://mopo.github.io/data-catalog#4fc79e59-01c4-49fd-b6da-066fc86e5715> a skos:Concept ;
+    dcterms:identifier "4fc79e59-01c4-49fd-b6da-066fc86e5715" ;
+    skos:definition "NaN"^^xsd:double ;
+    skos:prefLabel "generation" .
+
+<https://mopo.github.io/data-catalog#aad218bd-878a-42ca-8527-8f38e5acba36> a skos:Concept ;
     dcterms:identifier "aad218bd-878a-42ca-8527-8f38e5acba36" ;
     skos:definition "Data that is organized along a timeline" ;
     skos:prefLabel "time series" .
 
-<https://datacatalog.github.io/test_this#dd9e1c57-2223-467c-a3d5-9c8701d3e688> a skos:Concept ;
+<https://mopo.github.io/data-catalog#795464ae-ecea-4a09-a356-10de61adcc08> a skos:Concept ;
+    dcterms:identifier "795464ae-ecea-4a09-a356-10de61adcc08" ;
+    skos:definition "wind as an energy source" ;
+    skos:prefLabel "wind" .
+
+<https://mopo.github.io/data-catalog#dd9e1c57-2223-467c-a3d5-9c8701d3e688> a skos:Concept ;
     dcterms:identifier "dd9e1c57-2223-467c-a3d5-9c8701d3e688" ;
     skos:definition "the fraction of installed capacity that was or is available at a given moment in time" ;
     skos:prefLabel "capacity factor" .
