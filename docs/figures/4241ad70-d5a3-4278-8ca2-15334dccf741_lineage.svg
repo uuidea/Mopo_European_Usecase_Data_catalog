@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2024-11-25T15:16:22.954629</dc:date>
+    <dc:date>2024-11-25T15:23:55.828269</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -40,7 +40,7 @@ z
    <g id="EdgeCollection_1"/>
    <g id="VertexCollection_1">
     <defs>
-     <path id="m5bad2dd8e7" d="M 0 12.5 
+     <path id="mcccbfbb803" d="M 0 12.5 
 C 3.315039 12.5 6.494748 11.182921 8.838835 8.838835 
 C 11.182921 6.494748 12.5 3.315039 12.5 0 
 C 12.5 -3.315039 11.182921 -6.494748 8.838835 -8.838835 
@@ -52,12 +52,12 @@ C -6.494748 11.182921 -3.315039 12.5 0 12.5
 z
 " style="stroke: #000000"/>
     </defs>
-    <g clip-path="url(#pe8a141c7dd)">
-     <use xlink:href="#m5bad2dd8e7" x="184.5" y="181.8" style="fill: #ff0000; stroke: #000000"/>
+    <g clip-path="url(#pbbc9e86a4b)">
+     <use xlink:href="#mcccbfbb803" x="184.5" y="181.8" style="fill: #ff0000; stroke: #000000"/>
     </g>
    </g>
    <g id="text_1">
-    <g clip-path="url(#pe8a141c7dd)">
+    <g clip-path="url(#pbbc9e86a4b)">
      <!-- Existing offshore wind generation capacity factor time series  -->
      <g transform="translate(-0.089062 210.11125) scale(0.12 -0.12)">
       <defs>
@@ -553,7 +553,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pe8a141c7dd">
+  <clipPath id="pbbc9e86a4b">
    <rect x="45" y="43.2" width="279" height="277.2"/>
   </clipPath>
  </defs>

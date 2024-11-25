@@ -27,7 +27,7 @@ Table of contents
 
 
 This is a data catalog to test different functions of the SimpleMDDataCatalog project  
-[The machine readable version of the catalog (ttl) can be found here.](talog.ttl)
+[The machine readable version of the catalog (ttl) can be found here.](catalog.ttl)
 ## Publisher
   
 mopo project
@@ -45,7 +45,7 @@ cc-by-sa 4.0
 # Datasets organized by theme
   
 the word cloud gives a sense of the themes that are covered by the datasets in this data catalog.  
-![word cloud of dataset themes and their occurrences](gures/wordcloud.svg)  
+![word cloud of dataset themes and their occurrences](figures/wordcloud.svg)  
 Here you will find datasets organized by theme. The headers of each theme are links you can click to learn more about the definition
 ## theme: [existing](3a13ede8-d139-4c62-bbdd-0f7537128ba8.md)
 
