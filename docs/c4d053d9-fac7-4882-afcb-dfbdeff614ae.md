@@ -7,7 +7,7 @@ onshore
 onshore
 # uri
   
-https://mopo.github.io/data-catalog#c4d053d9-fac7-4882-afcb-dfbdeff614ae
+https://www.tools-for-energy-system-modelling.org/DataCatalog#c4d053d9-fac7-4882-afcb-dfbdeff614ae
 # Definition
   
 installed on land
